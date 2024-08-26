@@ -1,0 +1,54 @@
+﻿.property-details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.property-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.property-details .price {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.property-details .description {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.property-details .amenities {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.property-details .amenities li {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.property-details .book-now {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.property-details .book-now:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,56 @@
+﻿.hero {
+  background-image: url('https://example.com/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-section {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.cta-section h2 {
+  color: var(--text-color);
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.feature {
+  text-align: center;
+  max-width: 250px;
+}
+
+.feature .emoji {
+  font-size: 3em;
+  margin-bottom: 10px;
+}

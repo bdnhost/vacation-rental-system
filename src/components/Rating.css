@@ -1,0 +1,19 @@
+﻿.rating {
+  display: inline-block;
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: auto;
+  margin: 0;
+  position: relative;
+  padding: 0;
+}
+
+.rating .star {
+  padding: 0 2px;
+}
+
+.rating .star.filled {
+  color: #ffc107;
+}

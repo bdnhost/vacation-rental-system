@@ -1,0 +1,30 @@
+﻿.main-header {
+  background-color: #0066cc;
+  color: white;
+  padding: 1rem 0;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header h1 {
+  margin: 0;
+}
+
+.main-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.main-header nav ul li {
+  margin-left: 20px;
+}
